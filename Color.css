@@ -1,0 +1,73 @@
+﻿:root {
+    /* Use HSLA values for color, the H and S values are in the -base color */
+    --primary-h: 213;
+    --primary-s: 5%;
+    --primary-l: 59%;
+    --secondary-h: 213;
+    --secondary-s: 5%;
+    --secondary-l: 59%;
+    --accent-1-h: 117;
+    --accent-1-s: 22%;
+    --accent-1-l: 47%;
+    --neutral-h: 0;
+    --neutral-s: 0%;
+    --neutral-l: 0%;
+    --base-h: 213;
+    --base-s: 5%;
+    --base-l: 59%;
+    /* informational colors */
+    --info: 187, 54.8%, 93.9%, 1;
+    --warning: 50, 80.4%, 90%, 1;
+    --error: 19, 53.2%, 90.8%, 1;
+    --success: 120, 22.6%, 93.9%, 1;
+    /* calculated values */
+    --primary: hsla( var(--primary-h), var(--primary-s), var(--primary-l), 100%);
+    --primary-dark: hsla( var(--primary-h), var(--primary-s), calc(var(--primary-l) - 10%), 100%);
+    --primary-darker: hsla( var(--primary-h), var(--primary-s), calc( var(--primary-l) - 20%), 100%);
+    --primary-light: hsla( var(--primary-h), var(--primary-s), calc(var(--primary-l) + 10%), 100%);
+    --primary-lighter: hsla( var(--primary-h), var(--primary-s), calc(var(--primary-l) + 20%), 100%);
+    --secondary: hsla( var(--secondary-h), var(--secondary-s), var(--secondary-l), 100%);
+    --secondary-dark: hsla( var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) - 10%), 100%);
+    --secondary-darker: hsla( var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) - 20%), 100%);
+    --secondary-light: hsla( var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) + 10%), 100%);
+    --secondary-lighter: hsla( var(--secondary-h), var(--secondary-s), calc(var(--secondary-l) + 20%), 100%);
+    --accent-1: hsla( var(--accent-1-h), var(--accent-1-s), var(--accent-1-l), 100%);
+    --accent-1-dark: hsla( var(--accent-1-h), var(--accent-1-s), calc(var(--accent-1-l) - 10%), 100%);
+    --accent-1-darker: hsla( var(--accent-1-h), var(--accent-1-s), calc(var(--accent-1-l) - 20%), 100%);
+    --accent-1-light: hsla( var(--accent-1-h), var(--accent-1-s), calc(var(--accent-1-l) + 10%), 100%);
+    --accent-1-lighter: hsla( var(--accent-1-h), var(--accent-1-s), calc(var(--accent-1-l) + 20%), 100%);
+    --neutral: hsla( var(--neutral-h), var(--neutral-s), var(--neutral-l), 100%);
+    --neutral-dark: hsla( var(--neutral-h), var(--neutral-s), calc(var(--neutral-l) - 10%), 100%);
+    --neutral-darker: hsla( var(--neutral-h), var(--neutral-s), calc(var(--neutral-l) - 20%), 100%);
+    --neutral-light: hsla( var(--neutral-h), var(--neutral-s), calc(var(--neutral-l) + 10%), 100%);
+    --neutral-lighter: hsla( var(--neutral-h), var(--neutral-s), calc(var(--neutral-l) + 20%), 100%);
+    --base: hsla( var(--base-h), var(--base-s), var(--base-l), 100%);
+    --base-dark: hsla( var(--base-h), var(--base-s), calc(var(--base-l) - 10%), 100%);
+    --base-darker: hsla( var(--base-h), var(--base-s), calc(var(--base-l) - 20%), 100%);
+    --base-light: hsla( var(--base-h), var(--base-s), calc(var(--base-l) + 10%), 100%);
+    --base-lighter: hsla( var(--base-h), var(--base-s), calc(var(--base-l) + 20%), 100%);
+}
+
+body {
+    background-color: var(--base);
+}
+.area-1 {
+    background-color: var(--base-light);
+}
+.area-2 {
+    background-color: var(--base-light);
+}
+.area-3 {
+    background-color: var(--base-light);
+}
+.times {
+    background-color: var(--base-light);
+}
+
+nav a {
+    color: var(--neutral);
+}
+
+.notice {
+    background-color: var(--base-light);
+}
