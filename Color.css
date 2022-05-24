@@ -63,7 +63,9 @@ body {
 .times {
     background-color: var(--base-light);
 }
-
+.events {
+    background-color: var(--base-light);
+}
 nav a {
     color: var(--neutral);
 }
