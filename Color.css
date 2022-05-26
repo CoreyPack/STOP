@@ -3,9 +3,9 @@
     --primary-h: 213;
     --primary-s: 5%;
     --primary-l: 59%;
-    --secondary-h: 213;
-    --secondary-s: 5%;
-    --secondary-l: 59%;
+    --secondary-h: 339;
+    --secondary-s: 28%;
+    --secondary-l: 82%;
     --accent-1-h: 117;
     --accent-1-s: 22%;
     --accent-1-l: 47%;
@@ -72,4 +72,8 @@ nav a {
 
 .notice {
     background-color: var(--base-light);
+}
+
+Crossroads{
+    background-color: black;
 }
